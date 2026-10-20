@@ -1,0 +1,27 @@
+
+
+import UIKit
+import SysBaseLib
+class RentSubCatTVCell: UITableViewCell {
+
+    @IBOutlet weak var containerView: UIView!
+    @IBOutlet weak var descriptionLbl: MyLabel!
+    @IBOutlet weak var sepratorLbl: UILabel!
+    @IBOutlet weak var containerViewTop: NSLayoutConstraint!
+    @IBOutlet weak var containerViewBottom: NSLayoutConstraint!
+    @IBOutlet weak var arrowView: UIView!
+    @IBOutlet weak var checkBox: BEMCheckBox!
+    @IBOutlet weak var arrowImageView: UIImageView!
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+    
+    
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+
+}

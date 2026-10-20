@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_bookings_new_unselcted.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

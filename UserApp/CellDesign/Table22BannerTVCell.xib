@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Table22BannerTVCell" rowHeight="175" id="cHA-kr-7sq" customClass="Table22BannerTVCell" customModule="UserApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="175"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cHA-kr-7sq" id="2rB-ls-yEz">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="175"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ixl-c0-Ru8">
+                        <rect key="frame" x="15" y="10" width="384" height="155"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <view clipsSubviews="YES" alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nVv-8w-Ns0">
+                        <rect key="frame" x="15" y="10" width="384" height="155"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_btn_rightarrow" translatesAutoresizingMaskIntoConstraints="NO" id="dMy-bW-55a">
+                        <rect key="frame" x="324" y="57.5" width="60" height="60"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="Ef8-el-MMb"/>
+                            <constraint firstAttribute="width" constant="60" id="fPA-kc-RO6"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zax-sn-n6g" customClass="MyLabel" customModule="UserApp" customModuleProvider="target">
+                        <rect key="frame" x="30" y="75.5" width="284" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyWeight" value="Medium"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="nVv-8w-Ns0" firstAttribute="leading" secondItem="2rB-ls-yEz" secondAttribute="leading" constant="15" id="0sO-mi-be8"/>
+                    <constraint firstAttribute="bottom" secondItem="ixl-c0-Ru8" secondAttribute="bottom" constant="10" id="1Wv-EY-cSU"/>
+                    <constraint firstItem="ixl-c0-Ru8" firstAttribute="leading" secondItem="2rB-ls-yEz" secondAttribute="leading" constant="15" id="2Hg-kY-rH1"/>
+                    <constraint firstAttribute="bottom" secondItem="nVv-8w-Ns0" secondAttribute="bottom" constant="10" id="6wd-AL-K6l"/>
+                    <constraint firstItem="ixl-c0-Ru8" firstAttribute="top" secondItem="2rB-ls-yEz" secondAttribute="top" constant="10" id="7BE-uW-NSQ"/>
+                    <constraint firstAttribute="trailing" secondItem="dMy-bW-55a" secondAttribute="trailing" constant="30" id="8SH-kt-Oml"/>
+                    <constraint firstItem="dMy-bW-55a" firstAttribute="leading" secondItem="zax-sn-n6g" secondAttribute="trailing" constant="10" id="Bm8-WQ-sWK"/>
+                    <constraint firstItem="dMy-bW-55a" firstAttribute="centerY" secondItem="ixl-c0-Ru8" secondAttribute="centerY" id="NRS-AB-IrF"/>
+                    <constraint firstAttribute="trailing" secondItem="ixl-c0-Ru8" secondAttribute="trailing" constant="15" id="SbZ-qu-R2l"/>
+                    <constraint firstItem="nVv-8w-Ns0" firstAttribute="top" secondItem="2rB-ls-yEz" secondAttribute="top" constant="10" id="Ukl-pJ-UEH"/>
+                    <constraint firstAttribute="trailing" secondItem="nVv-8w-Ns0" secondAttribute="trailing" constant="15" id="cfu-i9-aKR"/>
+                    <constraint firstItem="zax-sn-n6g" firstAttribute="leading" secondItem="2rB-ls-yEz" secondAttribute="leadingMargin" constant="10" id="lJ5-JG-sQX"/>
+                    <constraint firstItem="zax-sn-n6g" firstAttribute="centerY" secondItem="ixl-c0-Ru8" secondAttribute="centerY" id="pWo-TW-DKY"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                        <real key="value" value="10"/>
+                    </userDefinedRuntimeAttribute>
+                </userDefinedRuntimeAttributes>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="arrowImgView" destination="dMy-bW-55a" id="Vek-0E-PVe"/>
+                <outlet property="banenrImgView" destination="ixl-c0-Ru8" id="Pih-4e-sVw"/>
+                <outlet property="bannerTitleLbl" destination="zax-sn-n6g" id="Y0S-ta-m2x"/>
+                <outlet property="bannerTopView" destination="nVv-8w-Ns0" id="dye-vC-ntp"/>
+            </connections>
+            <point key="canvasLocation" x="-333.33333333333337" y="146.98660714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_btn_rightarrow" width="180" height="180"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MoreDeliveriesUV" customModule="UserApp" customModuleProvider="target">
+            <connections>
+                <outlet property="rideDelHeaderCarouseView" destination="xnc-8p-lSm" id="Rll-CU-1S3"/>
+                <outlet property="rideDeliveryHeaderView" destination="SOz-wf-8cN" id="KiN-4i-HSF"/>
+                <outlet property="rideDeliveryTableView" destination="H9M-OW-wgg" id="fDd-Ht-IdX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="En8-8g-sVu">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SOz-wf-8cN">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xnc-8p-lSm" customClass="iCarousel">
+                            <rect key="frame" x="0.0" y="-1" width="414" height="251"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="xnc-8p-lSm" firstAttribute="top" secondItem="SOz-wf-8cN" secondAttribute="top" constant="-1" id="91Z-kb-GiA"/>
+                        <constraint firstAttribute="bottom" secondItem="xnc-8p-lSm" secondAttribute="bottom" id="EXD-Pr-aYv"/>
+                        <constraint firstAttribute="trailing" secondItem="xnc-8p-lSm" secondAttribute="trailing" id="JHl-jH-8S0"/>
+                        <constraint firstItem="xnc-8p-lSm" firstAttribute="leading" secondItem="SOz-wf-8cN" secondAttribute="leading" id="SAD-dc-iNe"/>
+                        <constraint firstAttribute="height" constant="250" id="Wtk-HQ-eK9"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" contentInsetAdjustmentBehavior="never" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="H9M-OW-wgg">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="SOz-wf-8cN" firstAttribute="trailing" secondItem="En8-8g-sVu" secondAttribute="trailing" id="8PK-Su-h3G"/>
+                <constraint firstItem="SOz-wf-8cN" firstAttribute="leading" secondItem="En8-8g-sVu" secondAttribute="leading" id="J8P-2N-tkb"/>
+                <constraint firstItem="SOz-wf-8cN" firstAttribute="top" secondItem="En8-8g-sVu" secondAttribute="top" id="bE4-Ch-eMB"/>
+                <constraint firstItem="H9M-OW-wgg" firstAttribute="leading" secondItem="En8-8g-sVu" secondAttribute="leading" id="eOE-ok-DUU"/>
+                <constraint firstItem="H9M-OW-wgg" firstAttribute="top" secondItem="En8-8g-sVu" secondAttribute="top" id="nfe-LG-CJk"/>
+                <constraint firstItem="H9M-OW-wgg" firstAttribute="trailing" secondItem="En8-8g-sVu" secondAttribute="trailing" id="qLq-wk-uKA"/>
+                <constraint firstAttribute="bottom" secondItem="H9M-OW-wgg" secondAttribute="bottom" id="sfQ-gw-hmE"/>
+            </constraints>
+            <point key="canvasLocation" x="57.971014492753625" y="150.66964285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

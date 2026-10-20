@@ -1,0 +1,21 @@
+
+NSAppleMusicUsageDescription = "Applikation har brug for denne adgang for at vælge billedet fra dit fotogalleri for at indstille dit profilbillede" ;
+
+NSCalendarsUsageDescription = "Ansøgning kræver denne adgang til at vise kalenderen, mens du opretter en planlagt reservation og viser dagsvise bookinger.";
+
+NSCameraUsageDescription = "applikation kræver denne adgang for at tage billedet til dit profilbillede";
+
+NSContactsUsageDescription = "Applikation kræver adgang til din kontaktliste og upload af valgte kontakter til serveren for at sende nødalarmer til dine valgte kontakter." ;
+
+NSLocationAlwaysAndWhenInUseUsageDescription = "Din placering hentes automatisk for at give dig passende tilgængelige tjenester i dit område.";
+
+NSLocationAlwaysUsageDescription = "Din placering hentes automatisk for at give dig passende tilgængelige tjenester i dit område.";
+
+NSLocationUsageDescription =  "Din placering hentes automatisk for at give dig passende tilgængelige tjenester i dit område.";
+
+NSLocationWhenInUseUsageDescription = "Din placering hentes automatisk for at give dig passende tilgængelige tjenester i dit område.";
+
+NSMicrophoneUsageDescription = "Applikation har brug for denne adgang til mikrofon til formål til app til opkald" ;
+
+NSPhotoLibraryUsageDescription = "Applikation har brug for denne adgang for at vælge billedet fra dit fotogalleri for at indstille dit profilbillede." ;
+

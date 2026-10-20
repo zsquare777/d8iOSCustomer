@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Table22HeaderTVCell" rowHeight="70" id="G4L-o7-VCX" customClass="Table22HeaderTVCell" customModule="UserApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="G4L-o7-VCX" id="7ml-aa-ZK0">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hea-4j-osz">
+                        <rect key="frame" x="15" y="16" width="15" height="38"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qlj-Tf-dWa">
+                                <rect key="frame" x="4" y="4" width="7" height="30"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qlj-Tf-dWa" firstAttribute="leading" secondItem="hea-4j-osz" secondAttribute="leading" constant="4" id="Wnj-fa-iye"/>
+                            <constraint firstAttribute="trailing" secondItem="qlj-Tf-dWa" secondAttribute="trailing" constant="4" id="hPc-49-D09"/>
+                            <constraint firstItem="qlj-Tf-dWa" firstAttribute="top" secondItem="hea-4j-osz" secondAttribute="top" constant="4" id="p4K-gp-iAl"/>
+                            <constraint firstAttribute="bottom" secondItem="qlj-Tf-dWa" secondAttribute="bottom" constant="4" id="s86-zF-TBf"/>
+                            <constraint firstAttribute="width" constant="15" id="stU-24-yDT"/>
+                            <constraint firstAttribute="height" constant="38" id="vhB-BD-htz"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="yYg-dC-AKy" customClass="MyLabel" customModule="UserApp" customModuleProvider="target">
+                        <rect key="frame" x="45" y="24.5" width="354" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyWeight" value="Semibold"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yYg-dC-AKy" firstAttribute="centerY" secondItem="7ml-aa-ZK0" secondAttribute="centerY" id="EMK-ra-N8B"/>
+                    <constraint firstItem="hea-4j-osz" firstAttribute="centerY" secondItem="7ml-aa-ZK0" secondAttribute="centerY" id="Tqu-d4-NLg"/>
+                    <constraint firstItem="hea-4j-osz" firstAttribute="leading" secondItem="7ml-aa-ZK0" secondAttribute="leading" constant="15" id="od9-cQ-IUk"/>
+                    <constraint firstItem="yYg-dC-AKy" firstAttribute="leading" secondItem="hea-4j-osz" secondAttribute="trailing" constant="15" id="vOR-sf-tQd"/>
+                    <constraint firstAttribute="trailing" secondItem="yYg-dC-AKy" secondAttribute="trailing" constant="15" id="x0S-zQ-Nnn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="anchorSubView" destination="qlj-Tf-dWa" id="dCf-dR-0LH"/>
+                <outlet property="anchorView" destination="hea-4j-osz" id="OYA-K1-DVg"/>
+                <outlet property="anchorViewWidth" destination="stU-24-yDT" id="Qbm-fW-E8P"/>
+                <outlet property="lblTitley" destination="EMK-ra-N8B" id="14v-ar-7Rw"/>
+                <outlet property="titleLbl" destination="yYg-dC-AKy" id="bf9-52-Bbq"/>
+                <outlet property="titleLblLeadingSpace" destination="vOR-sf-tQd" id="Dgi-T9-XLo"/>
+            </connections>
+            <point key="canvasLocation" x="-378.26086956521743" y="84.375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

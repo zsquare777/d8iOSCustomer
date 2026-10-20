@@ -1,0 +1,21 @@
+
+NSAppleMusicUsageDescription = "De toepassing heeft deze toegang nodig om de foto uit uw fotogalerij te kiezen om uw profielfoto in te stellen" ;
+
+NSCalendarsUsageDescription = "Applicatie vereist deze toegang om de kalender weer te geven tijdens het maken van een geplande boeking en het tonen van dagelijkse boekingen.";
+
+NSCameraUsageDescription = "Applicatie vereist deze toegang om de foto voor uw profielfoto te maken.";
+
+NSContactsUsageDescription = "De toepassing vereist toegang tot uw contactenlijst en het uploaden van geselecteerde contacten naar de server voor het verzenden van noodwaarschuwingen naar uw geselecteerde contacten." ;
+
+NSLocationAlwaysAndWhenInUseUsageDescription = "Uw locatie wordt automatisch opgehaald om u de juiste beschikbare services in uw regio te bieden.";
+
+NSLocationAlwaysUsageDescription = "Uw locatie wordt automatisch opgehaald om u de juiste beschikbare services in uw regio te bieden.";
+
+NSLocationUsageDescription =  "Uw locatie wordt automatisch opgehaald om u de juiste beschikbare services in uw regio te bieden.";
+
+NSLocationWhenInUseUsageDescription = "Uw locatie wordt automatisch opgehaald om u de juiste beschikbare services in uw regio te bieden.";
+
+NSMicrophoneUsageDescription = "De applicatie heeft deze toegang tot de microfoon nodig voor het app-bellen." ;
+
+NSPhotoLibraryUsageDescription = "De toepassing heeft deze toegang nodig om de foto uit uw fotogalerij te kiezen om uw profielfoto in te stellen." ;
+

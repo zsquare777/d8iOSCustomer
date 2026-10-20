@@ -1,0 +1,21 @@
+
+NSAppleMusicUsageDescription = "アプリケーションは、フォトギャラリーから写真を選択してプロフィール写真を設定するために、このアクセス権を必要とします" ;
+
+NSCalendarsUsageDescription = "アプリケーションでは、スケジュールされた予約を作成し、日ごとの予約を表示するときにカレンダーを表示するために、このアクセスが必要です.";
+
+NSCameraUsageDescription = "アプリケーションでは、プロフィール写真の写真を撮るためにこのアクセスが必要です.";
+
+NSContactsUsageDescription = "アプリケーションでは、連絡先リストにアクセスし、選択した連絡先に緊急アラートを送信するために、選択した連絡先をサーバーにアップロードする必要があります." ;
+
+NSLocationAlwaysAndWhenInUseUsageDescription = "お住まいの地域で適切な利用可能なサービスを提供するために、あなたの場所が自動的に取得されます.";
+
+NSLocationAlwaysUsageDescription = "お住まいの地域で適切な利用可能なサービスを提供するために、あなたの場所が自動的に取得されます.";
+
+NSLocationUsageDescription =  "お住まいの地域で適切な利用可能なサービスを提供するために、あなたの場所が自動的に取得されます.";
+
+NSLocationWhenInUseUsageDescription = "お住まいの地域で適切な利用可能なサービスを提供するために、あなたの場所が自動的に取得されます.";
+
+NSMicrophoneUsageDescription = "アプリケーションは、アプリ間通話の目的でマイクへのこのアクセスを必要とします" ;
+
+NSPhotoLibraryUsageDescription = "アプリケーションは、フォトギャラリーから写真を選択してプロフィール写真を設定するために、このアクセス権を必要とします." ;
+

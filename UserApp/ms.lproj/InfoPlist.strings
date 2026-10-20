@@ -1,0 +1,21 @@
+
+NSAppleMusicUsageDescription = "Aplikasi memerlukan akses ini untuk memilih foto dari galeri foto anda untuk mengatur gambar profil anda" ;
+
+NSCalendarsUsageDescription = "Permohonan memerlukan akses ini untuk menunjukkan kalendar sambil membuat tempahan berjadual dan menunjukkan tempahan sehari.";
+
+NSCameraUsageDescription = "Aplikasi memerlukan akses ini untuk mengambil gambar untuk gambar profil anda.";
+
+NSContactsUsageDescription = "Aplikasi memerlukan untuk mengakses senarai kenalan anda dan memuat naik kenalan terpilih ke pelayan untuk menghantar amaran kecemasan ke kenalan yang anda pilih." ;
+
+NSLocationAlwaysAndWhenInUseUsageDescription = "Lokasi anda akan diambil secara automatik untuk memberi anda perkhidmatan tersedia yang sesuai di daerah anda.";
+
+NSLocationAlwaysUsageDescription = "Lokasi anda akan diambil secara automatik untuk memberi anda perkhidmatan tersedia yang sesuai di daerah anda.";
+
+NSLocationUsageDescription =  "Lokasi anda akan diambil secara automatik untuk memberi anda perkhidmatan tersedia yang sesuai di daerah anda.";
+
+NSLocationWhenInUseUsageDescription = "Lokasi anda akan diambil secara automatik untuk memberi anda perkhidmatan tersedia yang sesuai di daerah anda.";
+
+NSMicrophoneUsageDescription = "Aplikasi memerlukan akses ini ke Mikrofon untuk tujuan panggilan aplikasi ke aplikasi" ;
+
+NSPhotoLibraryUsageDescription = "Aplikasi memerlukan akses ini untuk memilih foto dari galeri foto anda untuk mengatur gambar profil anda." ;
+

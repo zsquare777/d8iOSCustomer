@@ -1,0 +1,21 @@
+
+NSAppleMusicUsageDescription = "O aplicativo precisa deste acesso para escolher a foto de sua galeria de fotos para definir sua imagem de perfil" ;
+
+NSCalendarsUsageDescription = "Application requires this access to show calendar while creating a scheduled booking and showing day wise bookings.";
+
+NSCameraUsageDescription = "O aplicativo requer este acesso para tirar a foto de seu perfi.";
+
+NSContactsUsageDescription = "O aplicativo requer o acesso à sua lista de contatos e o upload dos contatos selecionados para o servidor para o envio de alertas de emergência aos seus contatos selecionados." ;
+
+NSLocationAlwaysAndWhenInUseUsageDescription = "A sua localização será obtida automaticamente para lhe fornecer os serviços disponíveis adequados na sua área.";
+
+NSLocationAlwaysUsageDescription = "A sua localização será obtida automaticamente para lhe fornecer os serviços disponíveis adequados na sua área.";
+
+NSLocationUsageDescription =  "A sua localização será obtida automaticamente para lhe fornecer os serviços disponíveis adequados na sua área.";
+
+NSLocationWhenInUseUsageDescription = "Sua localização será obtida automaticamente para fornecer os serviços disponíveis apropriados em sua área.";
+
+NSMicrophoneUsageDescription = "O aplicativo precisa deste acesso ao microfone para fins de chamada de aplicativo para aplicativo" ;
+
+NSPhotoLibraryUsageDescription = "O aplicativo precisa deste acesso para escolher a foto de sua galeria de fotos para definir sua imagem de perfil." ;
+

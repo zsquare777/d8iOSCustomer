@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FoodRatingDetailQueAnsTVCell" rowHeight="60" id="QH8-fJ-GoW" customClass="FoodRatingDetailQueAnsTVCell" customModule="UserApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QH8-fJ-GoW" id="u3a-Ps-J1K">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbg-zE-tMF" customClass="MyLabel" customModule="UserApp" customModuleProvider="target">
+                        <rect key="frame" x="344" y="15" width="60" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="Jrm-DO-4CD"/>
+                            <constraint firstAttribute="height" constant="30" id="lJf-fa-Yaa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.84451044120040586" green="0.84451044120040586" blue="0.84451044120040586" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SvY-DE-Mvj" customClass="MyLabel" customModule="UserApp" customModuleProvider="target">
+                        <rect key="frame" x="274" y="15" width="60" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="8aH-jJ-LV0"/>
+                            <constraint firstAttribute="height" constant="30" id="lDx-ie-eM2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.84451044119999996" green="0.84451044119999996" blue="0.84451044119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P0y-b1-xPr" customClass="MyLabel" customModule="UserApp" customModuleProvider="target">
+                        <rect key="frame" x="10" y="5" width="254" height="50"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="P0y-b1-xPr" firstAttribute="leading" secondItem="u3a-Ps-J1K" secondAttribute="leading" constant="10" id="M1E-B3-9As"/>
+                    <constraint firstAttribute="trailing" secondItem="kbg-zE-tMF" secondAttribute="trailing" constant="10" id="MTO-Hi-2nf"/>
+                    <constraint firstItem="kbg-zE-tMF" firstAttribute="leading" secondItem="SvY-DE-Mvj" secondAttribute="trailing" constant="10" id="kNh-oO-TBx"/>
+                    <constraint firstAttribute="bottom" secondItem="P0y-b1-xPr" secondAttribute="bottom" constant="5" id="lQn-yu-wge"/>
+                    <constraint firstItem="SvY-DE-Mvj" firstAttribute="leading" secondItem="P0y-b1-xPr" secondAttribute="trailing" constant="10" id="nok-Sy-TmP"/>
+                    <constraint firstItem="kbg-zE-tMF" firstAttribute="centerY" secondItem="u3a-Ps-J1K" secondAttribute="centerY" id="pSK-3J-dUi"/>
+                    <constraint firstItem="P0y-b1-xPr" firstAttribute="top" secondItem="u3a-Ps-J1K" secondAttribute="top" constant="5" id="xSo-co-oqT"/>
+                    <constraint firstItem="SvY-DE-Mvj" firstAttribute="centerY" secondItem="u3a-Ps-J1K" secondAttribute="centerY" id="yke-bn-T8I"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ansNoLbl" destination="kbg-zE-tMF" id="RwV-lT-Q34"/>
+                <outlet property="ansYesLbl" destination="SvY-DE-Mvj" id="PeV-Hv-1yA"/>
+                <outlet property="queLbl" destination="P0y-b1-xPr" id="CVv-wY-nOq"/>
+            </connections>
+            <point key="canvasLocation" x="-243" y="-105"/>
+        </tableViewCell>
+    </objects>
+</document>

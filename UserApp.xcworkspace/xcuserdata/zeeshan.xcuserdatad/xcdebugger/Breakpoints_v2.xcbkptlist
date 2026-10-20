@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D41FA7F8-21FE-4622-A5C7-768B75E1AE6B"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86DA4012-5D2F-4F90-B8D8-180C84C19689"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UserApp/Screens/LauncherScreenUV.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "aesDecrypt(dataS:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "86DA4012-5D2F-4F90-B8D8-180C84C19689 - 405548058a56859f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UserApp.LauncherScreenUV.aesDecrypt(dataS: Swift.String) -&gt; Swift.String"
+                  moduleName = "UserApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeeshan/Desktop/Project/UserApp/UserApp/Screens/LauncherScreenUV.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "568">
+               </Location>
+               <Location
+                  uuid = "86DA4012-5D2F-4F90-B8D8-180C84C19689 - 405548058a56859f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UserApp.LauncherScreenUV.aesDecrypt(dataS: Swift.String) -&gt; Swift.String"
+                  moduleName = "UserApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeeshan/Desktop/Project/UserApp/UserApp/Screens/LauncherScreenUV.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "296">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1BB3605-9E81-44ED-868A-0CBAA2536902"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UserApp/Screens/LauncherScreenUV.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "aesDecrypt(dataS:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F1BB3605-9E81-44ED-868A-0CBAA2536902 - 405548058a568470"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UserApp.LauncherScreenUV.aesDecrypt(dataS: Swift.String) -&gt; Swift.String"
+                  moduleName = "UserApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeeshan/Desktop/Project/UserApp/UserApp/Screens/LauncherScreenUV.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "1440">
+               </Location>
+               <Location
+                  uuid = "F1BB3605-9E81-44ED-868A-0CBAA2536902 - 405548058a5684d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UserApp.LauncherScreenUV.aesDecrypt(dataS: Swift.String) -&gt; Swift.String"
+                  moduleName = "UserApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeeshan/Desktop/Project/UserApp/UserApp/Screens/LauncherScreenUV.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "392">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6F37B8B-4451-436B-B52C-217D6F2E35C7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UserApp/Screens/LauncherScreenUV.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "aesDecrypt(dataS:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D6F37B8B-4451-436B-B52C-217D6F2E35C7 - 405548058a5684d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UserApp.LauncherScreenUV.aesDecrypt(dataS: Swift.String) -&gt; Swift.String"
+                  moduleName = "UserApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeeshan/Desktop/Project/UserApp/UserApp/Screens/LauncherScreenUV.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "1868">
+               </Location>
+               <Location
+                  uuid = "D6F37B8B-4451-436B-B52C-217D6F2E35C7 - aca0d9e121852005"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in UserApp.LauncherScreenUV.aesDecrypt(dataS: Swift.String) -&gt; Swift.String"
+                  moduleName = "UserApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeeshan/Desktop/Project/UserApp/UserApp/Screens/LauncherScreenUV.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "D6F37B8B-4451-436B-B52C-217D6F2E35C7 - 405548058a5684d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UserApp.LauncherScreenUV.aesDecrypt(dataS: Swift.String) -&gt; Swift.String"
+                  moduleName = "UserApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zeeshan/Desktop/Project/UserApp/UserApp/Screens/LauncherScreenUV.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "392">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

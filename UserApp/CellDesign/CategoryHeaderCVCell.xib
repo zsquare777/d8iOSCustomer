@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryHeaderCVCell" id="DJ1-hf-EKQ" customClass="CategoryHeaderCVCell" customModule="UserApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4PP-fH-7BQ">
+                    <rect key="frame" x="2" y="10" width="371" height="38"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHL-de-gb2" customClass="MyLabel" customModule="UserApp" customModuleProvider="target">
+                            <rect key="frame" x="5" y="6" width="346" height="26"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyWeight" value="Medium"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="HHL-de-gb2" secondAttribute="bottom" constant="6" id="LwM-nq-ggu"/>
+                        <constraint firstItem="HHL-de-gb2" firstAttribute="leading" secondItem="4PP-fH-7BQ" secondAttribute="leading" constant="5" id="j15-4N-YB2"/>
+                        <constraint firstAttribute="trailing" secondItem="HHL-de-gb2" secondAttribute="trailing" constant="20" id="nVW-c4-dsG"/>
+                        <constraint firstItem="HHL-de-gb2" firstAttribute="top" secondItem="4PP-fH-7BQ" secondAttribute="top" constant="6" id="yTB-Jr-vyl"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="4PP-fH-7BQ" secondAttribute="bottom" constant="2" id="HEz-yt-lq4"/>
+                <constraint firstItem="4PP-fH-7BQ" firstAttribute="leading" secondItem="DJ1-hf-EKQ" secondAttribute="leading" constant="2" id="Z3I-2B-enE"/>
+                <constraint firstItem="4PP-fH-7BQ" firstAttribute="top" secondItem="DJ1-hf-EKQ" secondAttribute="top" constant="10" id="a7T-Es-fhm"/>
+                <constraint firstAttribute="trailing" secondItem="4PP-fH-7BQ" secondAttribute="trailing" constant="2" id="pym-nK-EdP"/>
+            </constraints>
+            <connections>
+                <outlet property="contentView" destination="4PP-fH-7BQ" id="x06-7K-raa"/>
+                <outlet property="sectionTitleLbl" destination="HHL-de-gb2" id="dDt-UU-giv"/>
+            </connections>
+            <point key="canvasLocation" x="-131.15942028985509" y="-28.125"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

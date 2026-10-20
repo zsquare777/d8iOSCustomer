@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="SO2-Wg-DfF" customClass="RideDeliveryMapCell" customModule="UserApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="235"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SO2-Wg-DfF" id="evt-qM-wOH">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="235"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Around you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j2i-rh-ujP" customClass="MyLabel" customModule="UserApp" customModuleProvider="target">
+                        <rect key="frame" x="20" y="30" width="374" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="aw5-Sj-eH1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyWeight" value="Regular"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pXA-h7-KjZ">
+                        <rect key="frame" x="20" y="65" width="374" height="150"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NF3-Qp-Noa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="15"/>
+                        <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="oIC-k6-P1B"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="j2i-rh-ujP" firstAttribute="top" secondItem="evt-qM-wOH" secondAttribute="top" constant="30" id="45c-zo-QiI"/>
+                    <constraint firstAttribute="trailing" secondItem="NF3-Qp-Noa" secondAttribute="trailing" id="MH2-ou-EV7"/>
+                    <constraint firstAttribute="trailing" secondItem="pXA-h7-KjZ" secondAttribute="trailing" constant="20" id="Txg-sH-woC"/>
+                    <constraint firstAttribute="trailing" secondItem="j2i-rh-ujP" secondAttribute="trailing" constant="20" id="VuS-h8-m5i"/>
+                    <constraint firstItem="pXA-h7-KjZ" firstAttribute="leading" secondItem="evt-qM-wOH" secondAttribute="leading" constant="20" id="e93-ZC-MO4"/>
+                    <constraint firstItem="pXA-h7-KjZ" firstAttribute="top" secondItem="j2i-rh-ujP" secondAttribute="bottom" constant="15" id="gMZ-6c-iwy"/>
+                    <constraint firstItem="NF3-Qp-Noa" firstAttribute="leading" secondItem="evt-qM-wOH" secondAttribute="leading" id="iXX-1E-Ht0"/>
+                    <constraint firstItem="NF3-Qp-Noa" firstAttribute="top" secondItem="evt-qM-wOH" secondAttribute="top" id="kcT-1G-kfB"/>
+                    <constraint firstAttribute="bottom" secondItem="pXA-h7-KjZ" secondAttribute="bottom" constant="20" id="q6F-HQ-dk2"/>
+                    <constraint firstItem="j2i-rh-ujP" firstAttribute="leading" secondItem="evt-qM-wOH" secondAttribute="leading" constant="20" id="ua8-Tm-TBV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="mapView" destination="pXA-h7-KjZ" id="tl3-pM-ruh"/>
+                <outlet property="titleLbl" destination="j2i-rh-ujP" id="DTb-hT-Unq"/>
+            </connections>
+            <point key="canvasLocation" x="-336.23188405797106" y="-11.71875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,21 @@
+
+NSAppleMusicUsageDescription = "프로필 사진을 설정하기 위해 사진 갤러리에서 사진을 선택하려면 애플리케이션에이 액세스 권한이 필요합니다" ;
+
+NSCalendarsUsageDescription = "예약 된 예약을 만들고 일일 예약을 표시하는 동안 캘린더를 표시하려면 애플리케이션에이 액세스 권한이 필요합니다.";
+
+NSCameraUsageDescription = "프로필 사진을 찍으려면 애플리케이션에이 액세스 권한이 필요합니다.";
+
+NSContactsUsageDescription = "애플리케이션은 연락처 목록에 액세스하고 선택한 연락처에 긴급 경보를 보내기 위해 선택한 연락처를 서버에 업로드해야합니다." ;
+
+NSLocationAlwaysAndWhenInUseUsageDescription = "귀하의 지역에서 사용 가능한 적절한 서비스를 제공하기 위해 귀하의 위치를 ​​자동으로 가져옵니다.";
+
+NSLocationAlwaysUsageDescription = "귀하의 지역에서 사용 가능한 적절한 서비스를 제공하기 위해 귀하의 위치를 ​​자동으로 가져옵니다.";
+
+NSLocationUsageDescription =  "귀하의 지역에서 사용 가능한 적절한 서비스를 제공하기 위해 귀하의 위치를 ​​자동으로 가져옵니다.";
+
+NSLocationWhenInUseUsageDescription = "귀하의 지역에서 사용 가능한 적절한 서비스를 제공하기 위해 귀하의 위치를 ​​자동으로 가져옵니다.";
+
+NSMicrophoneUsageDescription = "앱에서 앱 간 호출 목적으로 애플리케이션에 마이크에 대한 액세스 권한이 필요합니다" ;
+
+NSPhotoLibraryUsageDescription = "프로필 사진을 설정하기 위해 사진 갤러리에서 사진을 선택하려면 애플리케이션에이 액세스 권한이 필요합니다." ;
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NearbyCatCVC" customModule="UserApp" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="NearbyCatCVC" id="gTV-IL-0wX" customClass="NearbyCatCVC" customModule="UserApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sEI-ah-qVT">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiN-mB-aek" customClass="MyLabel" customModule="UserApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyWeight" value="Regular"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="uiN-mB-aek" secondAttribute="bottom" id="1bH-EB-6QD"/>
+                            <constraint firstAttribute="trailing" secondItem="uiN-mB-aek" secondAttribute="trailing" id="5bx-y7-pI1"/>
+                            <constraint firstItem="uiN-mB-aek" firstAttribute="top" secondItem="sEI-ah-qVT" secondAttribute="top" id="OdB-cp-86M"/>
+                            <constraint firstItem="uiN-mB-aek" firstAttribute="leading" secondItem="sEI-ah-qVT" secondAttribute="leading" id="rQK-RR-xLI"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="22"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="sEI-ah-qVT" secondAttribute="bottom" id="Zzr-D7-GNP"/>
+                <constraint firstItem="sEI-ah-qVT" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="opQ-8E-0qi"/>
+                <constraint firstItem="sEI-ah-qVT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="qXX-Ed-ogY"/>
+                <constraint firstAttribute="trailing" secondItem="sEI-ah-qVT" secondAttribute="trailing" id="uDB-W6-9tY"/>
+            </constraints>
+            <size key="customSize" width="145" height="48"/>
+            <connections>
+                <outlet property="cntView" destination="sEI-ah-qVT" id="xBD-9c-stA"/>
+                <outlet property="lblTitle" destination="uiN-mB-aek" id="4yI-Ji-Gv9"/>
+            </connections>
+            <point key="canvasLocation" x="200.72463768115944" y="42.1875"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UFXCheckOutItemView" customModule="UserApp" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="Rb8-dW-LV4" id="pdM-ha-Wbe"/>
+                <outlet property="deleteImgView" destination="PK5-32-ilL" id="lJP-qq-069"/>
+                <outlet property="deleteView" destination="5aj-BA-MdW" id="kBh-Pd-Eg0"/>
+                <outlet property="itemCountLbl" destination="0pQ-dl-DHG" id="Xqr-7B-fmq"/>
+                <outlet property="itemName" destination="q9T-0a-8Fs" id="Nt9-Qo-1g2"/>
+                <outlet property="itemNameY" destination="Bg0-on-UFi" id="2jQ-op-X7c"/>
+                <outlet property="itemPriceLbl" destination="O7u-nA-qtP" id="ZTc-CD-puy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="401" height="104"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rb8-dW-LV4">
+                    <rect key="frame" x="0.0" y="8" width="401" height="94"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dfgdfgdfg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q9T-0a-8Fs" customClass="MarqueeLabel">
+                            <rect key="frame" x="15" y="15" width="326" height="21"/>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyWeight" value="Medium"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="0pQ-dl-DHG" customClass="MyLabel" customModule="UserApp" customModuleProvider="target">
+                            <rect key="frame" x="15" y="62" width="40" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="bBB-1w-pWo"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyWeight" value="Medium"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="O7u-nA-qtP" customClass="MyLabel" customModule="UserApp" customModuleProvider="target">
+                            <rect key="frame" x="15" y="39" width="44" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="biS-LD-TVd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyWeight" value="Medium"/>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAppThemeFont" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5aj-BA-MdW">
+                            <rect key="frame" x="361" y="15" width="25" height="25"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_delete_new_design" translatesAutoresizingMaskIntoConstraints="NO" id="PK5-32-ilL">
+                                    <rect key="frame" x="6.5" y="6.5" width="12.5" height="12.5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="12.5" id="RaB-UN-g5N"/>
+                                        <constraint firstAttribute="height" constant="12.5" id="i0e-UK-iut"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="BVY-96-pe2"/>
+                                <constraint firstAttribute="width" constant="25" id="LZC-wd-vsd"/>
+                                <constraint firstItem="PK5-32-ilL" firstAttribute="centerX" secondItem="5aj-BA-MdW" secondAttribute="centerX" id="O8M-0X-wB5"/>
+                                <constraint firstItem="PK5-32-ilL" firstAttribute="centerY" secondItem="5aj-BA-MdW" secondAttribute="centerY" id="fds-5b-ZMT"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="0pQ-dl-DHG" firstAttribute="leading" secondItem="Rb8-dW-LV4" secondAttribute="leading" constant="15" id="3mc-TF-QVw"/>
+                        <constraint firstItem="0pQ-dl-DHG" firstAttribute="top" secondItem="O7u-nA-qtP" secondAttribute="bottom" constant="3" id="64R-0q-9Fy"/>
+                        <constraint firstAttribute="trailing" secondItem="5aj-BA-MdW" secondAttribute="trailing" constant="15" id="6uC-Dj-Aox"/>
+                        <constraint firstItem="q9T-0a-8Fs" firstAttribute="top" secondItem="Rb8-dW-LV4" secondAttribute="top" constant="15" id="Bg0-on-UFi"/>
+                        <constraint firstItem="q9T-0a-8Fs" firstAttribute="leading" secondItem="Rb8-dW-LV4" secondAttribute="leading" constant="15" id="L1E-90-yfc"/>
+                        <constraint firstItem="5aj-BA-MdW" firstAttribute="top" secondItem="q9T-0a-8Fs" secondAttribute="top" id="Pmy-KV-RlT"/>
+                        <constraint firstAttribute="trailing" secondItem="q9T-0a-8Fs" secondAttribute="trailing" constant="60" id="Qn2-tT-g7c"/>
+                        <constraint firstItem="O7u-nA-qtP" firstAttribute="leading" secondItem="Rb8-dW-LV4" secondAttribute="leading" constant="15" id="eJa-KJ-dSF"/>
+                        <constraint firstItem="O7u-nA-qtP" firstAttribute="top" secondItem="q9T-0a-8Fs" secondAttribute="bottom" constant="3" id="saD-OP-o7c"/>
+                        <constraint firstAttribute="height" constant="94" id="wmj-xl-4pP"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Rb8-dW-LV4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="MNf-QI-9vc"/>
+                <constraint firstItem="Rb8-dW-LV4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="neP-qL-Bbh"/>
+                <constraint firstAttribute="trailing" secondItem="Rb8-dW-LV4" secondAttribute="trailing" id="sje-df-Rpe"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="507.97101449275368" y="-36.160714285714285"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="q9T-0a-8Fs">
+            <size key="intrinsicContentSize" width="76" height="21"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="ic_delete_new_design" width="12" height="13"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

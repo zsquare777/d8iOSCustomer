@@ -1,0 +1,27 @@
+
+
+import UIKit
+
+class ChooseAddressTVCell: UITableViewCell {
+
+    @IBOutlet weak var cntView: UIView!
+    @IBOutlet weak var containerView: UIView!
+    @IBOutlet weak var deleteImgView: UIImageView!
+    @IBOutlet weak var addressLbl: MyLabel!
+    @IBOutlet weak var selectImgView: UIImageView!
+    @IBOutlet weak var serviceNotAvailLbl: MyLabel!
+    //@IBOutlet weak var selImgCenter: NSLayoutConstraint!
+    @IBOutlet weak var addLblCenter: NSLayoutConstraint!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+
+}

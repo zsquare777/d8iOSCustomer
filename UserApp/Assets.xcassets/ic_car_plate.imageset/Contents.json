@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_car_plate.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

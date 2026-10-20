@@ -1,0 +1,42 @@
+@font-face
+{
+    font-family: 'Roboto-Regular';
+    src: local('Roboto-Regular'),url('Roboto-Regular.ttf') format('opentype');
+}
+
+@font-face
+{
+    font-family: 'Roboto-SemiBold';
+    src: local('Roboto-SemiBold'),url('Roboto-SemiBold.ttf') format('opentype');
+}
+
+@font-face
+{
+    font-family: 'Roboto-Light';
+    src: local('Roboto-Light'),url('Roboto-Light.ttf') format('opentype');
+}
+
+
+h1
+{
+    font-family: 'Roboto-Regular';
+    font-size: 28px;
+    font-weight: normal;
+}
+
+#h101
+{
+    font-family: 'Roboto-SemiBold';
+    font-size: 32px;
+    font-weight: normal;
+}
+
+
+#p01
+{
+    font-family: 'Roboto-Regular';
+    font-size: 29px;
+    font-weight: normal;
+}
+
+

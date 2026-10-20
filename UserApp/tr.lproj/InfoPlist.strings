@@ -1,0 +1,21 @@
+
+NSAppleMusicUsageDescription = "Profil resminizi ayarlamak üzere fotoğraf galerinizden bir fotoğraf seçmek için uygulamanın bu erişime ihtiyacı var" ;
+
+NSCalendarsUsageDescription = "Uygulama, planlanmış bir rezervasyon oluştururken ve günlük rezervasyonları gösterirken takvimi göstermek için bu erişimi gerektirir.";
+
+NSCameraUsageDescription = "Uygulama, profil resminiz için fotoğraf çekmek için bu erişimi gerektiriyor.";
+
+NSContactsUsageDescription = "Uygulama, seçilen kişilere acil durum uyarıları göndermek için kişi listenize erişmeyi ve seçilen kişileri sunucuya yüklemeyi gerektirir." ;
+
+NSLocationAlwaysAndWhenInUseUsageDescription = "Bulunduğunuz bölgede size uygun hizmetlerin sağlanması için konumunuz otomatik olarak alınacaktır.";
+
+NSLocationAlwaysUsageDescription = "Bulunduğunuz bölgede size uygun hizmetlerin sağlanması için konumunuz otomatik olarak alınacaktır.";
+
+NSLocationUsageDescription =  "Bulunduğunuz yerde size uygun hizmetlerin sağlanması için konumunuz otomatik olarak alınacaktır.";
+
+NSLocationWhenInUseUsageDescription = "Bulunduğunuz bölgede size uygun hizmetlerin sağlanması için konumunuz otomatik olarak alınacaktır.";
+
+NSMicrophoneUsageDescription = "Uygulamadan uygulamaya arama amacıyla uygulamanın Mikrofon'a bu erişime ihtiyacı var" ;
+
+NSPhotoLibraryUsageDescription = "Profil resminizi ayarlamak üzere fotoğraf galerinizden bir fotoğraf seçmek için uygulamanın bu erişime ihtiyacı var." ;
+

@@ -1,0 +1,21 @@
+
+NSAppleMusicUsageDescription = "Ứng dụng cần quyền truy cập này để chọn ảnh từ thư viện ảnh của bạn để đặt ảnh hồ sơ của bạn" ;
+
+NSCalendarsUsageDescription = "Ứng dụng yêu cầu quyền truy cập này để hiển thị lịch trong khi tạo đặt phòng theo lịch trình và hiển thị các đặt phòng khôn ngoan trong ngày.";
+
+NSCameraUsageDescription = "Ứng dụng yêu cầu quyền truy cập này để chụp ảnh cho ảnh hồ sơ của bạn.";
+
+NSContactsUsageDescription = "Ứng dụng yêu cầu truy cập danh sách liên hệ của bạn và tải các liên hệ đã chọn lên máy chủ để gửi cảnh báo khẩn cấp đến các liên hệ đã chọn của bạn" ;
+
+NSLocationAlwaysAndWhenInUseUsageDescription = "Vị trí của bạn sẽ được tự động tìm nạp để cung cấp cho bạn các dịch vụ sẵn có thích hợp trong khu vực của bạn.";
+
+NSLocationAlwaysUsageDescription = "Vị trí của bạn sẽ được tự động tìm nạp để cung cấp cho bạn các dịch vụ sẵn có thích hợp trong khu vực của bạn.";
+
+NSLocationUsageDescription =  "Vị trí của bạn sẽ được tự động tìm nạp để cung cấp cho bạn các dịch vụ sẵn có thích hợp trong khu vực của bạn.";
+
+NSLocationWhenInUseUsageDescription = "Vị trí của bạn sẽ được tự động tìm nạp để cung cấp cho bạn các dịch vụ sẵn có thích hợp trong khu vực của bạn.";
+
+NSMicrophoneUsageDescription = "Ứng dụng cần quyền truy cập này vào Micrô cho ứng dụng cho mục đích gọi ứng dụng" ;
+
+NSPhotoLibraryUsageDescription = "Ứng dụng cần quyền truy cập này để chọn ảnh từ thư viện ảnh của bạn để đặt ảnh hồ sơ của bạn." ;
+

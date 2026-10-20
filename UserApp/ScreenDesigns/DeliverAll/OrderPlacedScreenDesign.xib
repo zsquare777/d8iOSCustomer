@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OrderPlacedUV" customModule="UserApp" customModuleProvider="target">
+            <connections>
+                <outlet property="animationView" destination="fXY-w4-2qf" id="tGY-u9-h1c"/>
+                <outlet property="orderPlacedImgeView" destination="RaX-c3-QKh" id="1Jt-Na-glz"/>
+                <outlet property="orederPlacedHintLbl" destination="USe-TM-snd" id="6XC-aV-nsX"/>
+                <outlet property="submitBtn" destination="oXs-iQ-e2a" id="oPf-xa-H9Y"/>
+                <outlet property="submitBtnHeight" destination="RzV-fn-ZGA" id="ORu-Ra-68P"/>
+                <outlet property="titleLbl" destination="nV9-Ia-e6l" id="Tf2-CE-sgK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oXs-iQ-e2a" customClass="MyButton" customModule="UserApp" customModuleProvider="target">
+                    <rect key="frame" x="15" y="345.5" width="345" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="RzV-fn-ZGA"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAppTheme" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAppTheme1" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_grocery_order_placed" translatesAutoresizingMaskIntoConstraints="NO" id="RaX-c3-QKh">
+                    <rect key="frame" x="152.5" y="238.5" width="70" height="70"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="54g-dx-7Gj"/>
+                        <constraint firstAttribute="height" constant="70" id="CGh-Q9-KVd"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fXY-w4-2qf" customClass="AnimationView" customModule="Lottie">
+                    <rect key="frame" x="137.5" y="223.5" width="100" height="100"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="0vj-J1-fLK"/>
+                        <constraint firstAttribute="height" constant="100" id="l2g-WW-g3W"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="order_placed"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="USe-TM-snd" customClass="MyLabel" customModule="UserApp" customModuleProvider="target">
+                    <rect key="frame" x="12" y="330.5" width="350" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyWeight" value="Bold"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nV9-Ia-e6l" customClass="MyLabel" customModule="UserApp" customModuleProvider="target">
+                    <rect key="frame" x="10" y="328.5" width="355" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyWeight" value="Medium"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="nV9-Ia-e6l" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="4Rs-gO-uvh"/>
+                <constraint firstItem="RaX-c3-QKh" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-60" id="4ug-gt-BGB"/>
+                <constraint firstItem="oXs-iQ-e2a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="5zf-KX-j57"/>
+                <constraint firstItem="fXY-w4-2qf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Fmc-rB-Y3Y"/>
+                <constraint firstAttribute="trailing" secondItem="USe-TM-snd" secondAttribute="trailing" constant="13" id="Fwj-7K-WY6"/>
+                <constraint firstItem="nV9-Ia-e6l" firstAttribute="top" secondItem="RaX-c3-QKh" secondAttribute="bottom" constant="20" id="LYp-5B-VCT"/>
+                <constraint firstItem="fXY-w4-2qf" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-60" id="XQS-PJ-hJ4"/>
+                <constraint firstItem="USe-TM-snd" firstAttribute="top" secondItem="nV9-Ia-e6l" secondAttribute="bottom" constant="2" id="e1E-Gp-TiL"/>
+                <constraint firstItem="USe-TM-snd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="gNV-lJ-9ky"/>
+                <constraint firstAttribute="trailing" secondItem="oXs-iQ-e2a" secondAttribute="trailing" constant="15" id="jqC-Z7-q5j"/>
+                <constraint firstItem="RaX-c3-QKh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="kfT-IA-VRd"/>
+                <constraint firstItem="oXs-iQ-e2a" firstAttribute="top" secondItem="USe-TM-snd" secondAttribute="bottom" constant="15" id="lqv-lU-kdQ"/>
+                <constraint firstAttribute="trailing" secondItem="nV9-Ia-e6l" secondAttribute="trailing" constant="10" id="za3-SJ-gll"/>
+            </constraints>
+            <point key="canvasLocation" x="130.40000000000001" y="153.37331334332833"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_grocery_order_placed" width="250" height="250"/>
+    </resources>
+</document>

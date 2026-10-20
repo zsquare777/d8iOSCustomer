@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_home_new_unselected.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

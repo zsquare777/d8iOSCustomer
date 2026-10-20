@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MaintenancePageUV" customModule="UserApp" customModuleProvider="target">
+            <connections>
+                <outlet property="contactUsView" destination="htT-kf-Em3" id="2Ca-hQ-QuD"/>
+                <outlet property="contactusImgView" destination="pea-sp-mHu" id="oYB-ui-O8n"/>
+                <outlet property="contentLbl" destination="Opy-SC-mxa" id="8iv-kP-YJS"/>
+                <outlet property="headerLbl" destination="dky-w0-deR" id="PCn-7b-f3m"/>
+                <outlet property="imgViewHight" destination="5XR-nu-eim" id="P5q-GH-1Fz"/>
+                <outlet property="maintennanceImgView" destination="Xwo-Gc-L0t" id="21o-sM-aqL"/>
+                <outlet property="negativeBtn" destination="M8Z-kS-awX" id="Cm5-F7-6Ay"/>
+                <outlet property="positiveBtn" destination="YSf-61-6rp" id="otA-m7-cE6"/>
+                <outlet property="scrView" destination="ElJ-zN-l02" id="wt5-4d-FfO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ElJ-zN-l02">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="574"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bro" translatesAutoresizingMaskIntoConstraints="NO" id="Xwo-Gc-L0t">
+                            <rect key="frame" x="20" y="107" width="335" height="275"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="275" id="5XR-nu-eim"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dky-w0-deR" customClass="MyLabel" customModule="UserApp" customModuleProvider="target">
+                            <rect key="frame" x="20" y="442" width="335" height="29"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                            <color key="textColor" red="0.098039215686274508" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyWeight" value="Bold"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Opy-SC-mxa" customClass="MyLabel" customModule="UserApp" customModuleProvider="target">
+                            <rect key="frame" x="20" y="481" width="335" height="19.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.50588235294117645" green="0.49411764705882355" blue="0.49411764705882355" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyWeight" value="Medium"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Opy-SC-mxa" firstAttribute="top" secondItem="dky-w0-deR" secondAttribute="bottom" constant="10" id="0oS-JN-Zec"/>
+                        <constraint firstItem="dky-w0-deR" firstAttribute="leading" secondItem="ElJ-zN-l02" secondAttribute="leading" constant="20" id="2Kp-ik-iH1"/>
+                        <constraint firstAttribute="bottom" secondItem="Opy-SC-mxa" secondAttribute="bottom" constant="20" id="38z-6Y-rnN"/>
+                        <constraint firstItem="Opy-SC-mxa" firstAttribute="top" secondItem="dky-w0-deR" secondAttribute="bottom" constant="10" id="4zu-Hu-GAr"/>
+                        <constraint firstItem="dky-w0-deR" firstAttribute="top" secondItem="Xwo-Gc-L0t" secondAttribute="bottom" constant="60" id="5lN-b7-0hh"/>
+                        <constraint firstItem="Xwo-Gc-L0t" firstAttribute="leading" secondItem="ElJ-zN-l02" secondAttribute="leading" constant="20" id="KK7-xL-rR8"/>
+                        <constraint firstItem="dky-w0-deR" firstAttribute="centerX" secondItem="ElJ-zN-l02" secondAttribute="centerX" id="Pq1-7f-MQL"/>
+                        <constraint firstItem="Opy-SC-mxa" firstAttribute="top" secondItem="dky-w0-deR" secondAttribute="bottom" constant="10" id="SYn-4c-jUf"/>
+                        <constraint firstItem="Opy-SC-mxa" firstAttribute="leading" secondItem="ElJ-zN-l02" secondAttribute="leading" constant="20" id="UNx-th-TwY"/>
+                        <constraint firstItem="Xwo-Gc-L0t" firstAttribute="top" secondItem="ElJ-zN-l02" secondAttribute="top" constant="107" id="ddX-bK-7X5"/>
+                        <constraint firstItem="Opy-SC-mxa" firstAttribute="centerX" secondItem="ElJ-zN-l02" secondAttribute="centerX" id="kqr-ES-a14"/>
+                        <constraint firstItem="Xwo-Gc-L0t" firstAttribute="centerX" secondItem="ElJ-zN-l02" secondAttribute="centerX" id="x6t-Ar-8QJ"/>
+                    </constraints>
+                </scrollView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="MAU-Ej-LMX">
+                    <rect key="frame" x="20" y="589" width="335" height="48"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M8Z-kS-awX" customClass="MyButton" customModule="UserApp" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="157.5" height="48"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyWeight" value="Semibold"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="18"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YSf-61-6rp" customClass="MyButton" customModule="UserApp" customModuleProvider="target">
+                            <rect key="frame" x="177.5" y="0.0" width="157.5" height="48"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontFamilyWeight" value="Semibold"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="18"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="0fZ-Rh-5Ee"/>
+                    </constraints>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="htT-kf-Em3">
+                    <rect key="frame" x="299" y="513" width="56" height="56"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pea-sp-mHu">
+                            <rect key="frame" x="12" y="12" width="32" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="32" id="BrY-NN-PGA"/>
+                                <constraint firstAttribute="width" constant="32" id="KCx-RR-BLj"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="pea-sp-mHu" firstAttribute="centerX" secondItem="htT-kf-Em3" secondAttribute="centerX" id="0oE-x7-Bnf"/>
+                        <constraint firstItem="pea-sp-mHu" firstAttribute="centerY" secondItem="htT-kf-Em3" secondAttribute="centerY" id="G7A-ep-f86"/>
+                        <constraint firstAttribute="width" constant="56" id="PwG-Qz-PbR"/>
+                        <constraint firstAttribute="height" constant="56" id="bvc-40-VlQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ElJ-zN-l02" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="05O-zq-3Ns"/>
+                <constraint firstItem="MAU-Ej-LMX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="9sb-2U-sGS"/>
+                <constraint firstItem="ElJ-zN-l02" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Ah2-Ad-kc8"/>
+                <constraint firstAttribute="bottom" secondItem="MAU-Ej-LMX" secondAttribute="bottom" constant="30" id="IzQ-CS-G7v"/>
+                <constraint firstItem="MAU-Ej-LMX" firstAttribute="top" secondItem="htT-kf-Em3" secondAttribute="bottom" constant="20" id="XeM-Mx-oNh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="htT-kf-Em3" secondAttribute="trailing" constant="20" id="dFB-rA-hxg"/>
+                <constraint firstItem="ElJ-zN-l02" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="iNr-Nk-58T"/>
+                <constraint firstItem="MAU-Ej-LMX" firstAttribute="top" secondItem="ElJ-zN-l02" secondAttribute="bottom" constant="15" id="jRd-Kx-vW6"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="MAU-Ej-LMX" secondAttribute="trailing" constant="20" id="qlY-s7-40t"/>
+                <constraint firstItem="ElJ-zN-l02" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="rJT-7L-xYg"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bro" width="816" height="826"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

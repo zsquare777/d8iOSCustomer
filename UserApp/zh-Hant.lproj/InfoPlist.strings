@@ -1,0 +1,20 @@
+
+NSAppleMusicUsageDescription = "應用程序需要此訪問權限才能從照片庫中選擇照片來設置您的個人資料圖片" ;
+
+NSCalendarsUsageDescription = "應用程序需要此訪問權限才能顯示日曆，同時創建預定的預訂並顯示按日預訂.";
+
+NSCameraUsageDescription = "應用程序需要此訪問權限才能為您的個人資料照片拍照.";
+
+NSContactsUsageDescription = "應用程序需要訪問您的聯繫人列表，並將選定的聯繫人上載到服務器，以便向選定的聯繫人發送緊急警報." ;
+
+NSLocationAlwaysAndWhenInUseUsageDescription = "系統會自動獲取您的位置信息，以便為您提供所在地區適當的可用服務.";
+
+NSLocationAlwaysUsageDescription = "系統會自動獲取您的位置信息，以便為您提供所在地區適當的可用服務.";
+
+NSLocationUsageDescription =  "系統會自動獲取您的位置信息，以便為您提供所在地區適當的可用服務.";
+
+NSLocationWhenInUseUsageDescription = "系統會自動獲取您的位置信息，以便為您提供所在地區適當的可用服務.";
+
+NSMicrophoneUsageDescription = "應用程序需要此麥克風訪問權限，以實現應用程序到應用程序的通話目的" ;
+
+NSPhotoLibraryUsageDescription = "應用程序需要此訪問權限才能從照片庫中選擇照片來設置您的個人資料圖片." ;
